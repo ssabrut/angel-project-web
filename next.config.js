@@ -4,7 +4,7 @@ const nextConfig = {
     return [
       {
         source: "/api/:path*",
-        destination: "https://janus-cj6m02ocv-ssabrut.vercel.app/api/:path*",
+        destination: "https://janus-api.vercel.app/api/:path*",
       },
     ];
   },
