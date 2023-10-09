@@ -3,7 +3,7 @@ import DiaryTemplate from "./template/diary";
 
 export default async function DiaryPage({ params }) {
   const response = await fetch(
-    `https://janus-cj6m02ocv-ssabrut.vercel.app/api/diary/${params.fingerprint}`,
+    `https://janus-api.vercel.app/api/diary/${params.fingerprint}`,
     { cache: "no-cache" }
   );
 
