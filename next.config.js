@@ -4,7 +4,7 @@ const nextConfig = {
     return [
       {
         source: "/api/:path*",
-        destination: "http://0.0.0.0:8000/api/:path*",
+        destination: "https://janus-api-ssabrut.vercel.app/api/:path*",
       },
     ];
   },
